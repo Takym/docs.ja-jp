@@ -46,7 +46,7 @@ namespace AppLifetime.Example
 
         private void OnStopped()
         {
-            _logger.LogInformation("5. OnStopped has been called.");
+            _logger.LogInformation("5. OnStopped が呼び出されました。");
         }
     }
 }
